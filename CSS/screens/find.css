@@ -1,0 +1,45 @@
+.recommended-friends {
+    margin : 25px 0px;
+    border-top: var(--main-crossline);
+    border-bottom: var(--main-crossline);
+    padding: 15px 0px;
+}
+
+.recommended-friends__title {
+    font-size: 12px;
+    color: var(--main-grayfont);
+}
+
+.recommended-friends span {
+    display: block;
+    margin: 60px 0px;
+    text-align: center;
+    font-size: 16px;
+    color: var(--main-grayfont);
+}
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+/* @keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform: scale(1.5);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }    
+}
+
+.className {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+} */
